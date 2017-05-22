@@ -14,8 +14,6 @@ publishMavenStyle := true
 
 mainClass in Compile := Some("com.zaebst.spark.SquareDataExample")
 
-credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
-
 resolvers ++= Seq(
   "Local Maven Repository" at "file:///" + Path.userHome + "/.m2/repository",
   "Maven central" at "https://repo1.maven.org/maven2/"
