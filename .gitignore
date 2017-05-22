@@ -1,0 +1,28 @@
+*.class
+*.log
+
+# sbt
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target/*
+project/project/target/*
+
+# IntelliJ
+.idea/*
+
+# Gradle
+**/build/
+.gradle/
+
+# Spark
+**/derby.log
+
+*.iml
+*.jar
